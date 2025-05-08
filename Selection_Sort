@@ -4,7 +4,7 @@ for(int i=0;i<n;i++){
 int min=A[0];
 int k=0;
 for(int j=0;j<n;j++){
-if(A[j]<temp){
+if(A[j]<min){
 min=A[j];
 k=j;
 }
@@ -23,6 +23,6 @@ scanf("%d",&A[i]);
 }
 Selection_Sort(A,B,n);
 for(int i=0;i<n;i++){
-printf("%d",B[i]);
+printf("%d ",B[i]);
 }
 }
